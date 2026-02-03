@@ -9,13 +9,13 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-[0_4px_24px_-4px_hsl(185_85%_55%_/_0.3)] hover:shadow-[0_8px_32px_-4px_hsl(185_85%_55%_/_0.5)]",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-[0_4px_24px_-4px_hsl(270_85%_65%_/_0.3)] hover:shadow-[0_8px_32px_-4px_hsl(270_85%_65%_/_0.5)]",
         destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline: "border border-border bg-transparent hover:bg-secondary hover:border-primary/50 text-foreground",
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-secondary hover:text-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        hero: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-[0_4px_24px_-4px_hsl(185_85%_55%_/_0.4)] hover:shadow-[0_12px_40px_-4px_hsl(185_85%_55%_/_0.6)] hover:scale-[1.02]",
+        hero: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-[0_4px_24px_-4px_hsl(270_85%_65%_/_0.4)] hover:shadow-[0_12px_40px_-4px_hsl(270_85%_65%_/_0.6)] hover:scale-[1.02]",
       },
       size: {
         default: "h-11 px-6 py-2",
