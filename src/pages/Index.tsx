@@ -1,13 +1,28 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Hero from "@/components/sections/Hero";
+import Problem from "@/components/sections/Problem";
+import TheShift from "@/components/sections/TheShift";
+import WhatIDo from "@/components/sections/WhatIDo";
+import WhyMe from "@/components/sections/WhyMe";
+import HowItWorks from "@/components/sections/HowItWorks";
+import Services from "@/components/sections/Services";
+import FitCheck from "@/components/sections/FitCheck";
+import Results from "@/components/sections/Results";
+import FinalCTA from "@/components/sections/FinalCTA";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="bg-background min-h-screen">
+      <Hero />
+      <Problem />
+      <TheShift />
+      <WhatIDo />
+      <WhyMe />
+      <HowItWorks />
+      <Services />
+      <FitCheck />
+      <Results />
+      <FinalCTA />
+    </main>
   );
 };
 
