@@ -84,7 +84,7 @@ const FinalCTA = () => {
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-muted-foreground text-sm mb-6">
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/patricia-desentis/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-primary transition-colors"

@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import Hero from "@/components/sections/Hero";
 import Problem from "@/components/sections/Problem";
 import TheShift from "@/components/sections/TheShift";
@@ -12,6 +13,7 @@ import FinalCTA from "@/components/sections/FinalCTA";
 const Index = () => {
   return (
     <main className="bg-background min-h-screen">
+      <Header />
       <Hero />
       <Problem />
       <TheShift />
